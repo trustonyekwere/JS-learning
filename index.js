@@ -1,5 +1,7 @@
 let fullname = "Tee onyekwere"; //string
 let age = 17; //number
+age = age * 2; //reassigning variables using arithmetic operators
+age++; //adds one to the variable
 let favfood = "garri"; //string
 let online = true; //boolean
 let student = true; //boolean
