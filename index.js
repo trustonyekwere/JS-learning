@@ -1,11 +1,20 @@
+let fullname = "Tee onyekwere"; //string
 let age = 17; //number
-let firstname = "Tee"; //string
 let favfood = "garri"; //string
+let online = true; //boolean
+let student = true; //boolean
 
-console.log(typeof firstname);
-console.log(`my name is ${firstname}`);
+document.getElementById ("p1").textContent = `your name is ${fullname}`;
+document.getElementById ("p2").textContent = `you are ${age} years old`;
+document.getElementById ("p3").textContent = `enrolled: ${student}`;
+
+/* console.log(`my name is ${fullname}`);
 console.log(`i am ${age} years old`);
 console.log(`i like ${favfood}`);
+console.log(typeof fullname);
+console.log(typeof online);
+console.log(`${fullname} is online: ${online}`); */
+
 
 
 
